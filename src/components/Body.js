@@ -38,7 +38,7 @@ const Body = () => {
                         <Form/>
                     </Card>    
                 </Grid>
-                <Grid item xs={12} sm={12} md={8} lg ={9} xl={9} >
+                <Grid item xs={12} sm={12} md={12} lg ={12} xl={12} >
                     <Card sx={{height:"30rem",padding:"1rem",margin:"0.2rem",border:"1rem"}}>
                         <MapBox position={position}/>
                     </Card>
