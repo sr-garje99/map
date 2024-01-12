@@ -32,12 +32,13 @@ const Body = () => {
         <Header/>
         </Card>
         <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={1}>
+            
+            {/* <Grid container spacing={1}>
                  <Grid item xs={12} sm={12} md={12} lg ={12} xl={12} >
                     <Card sx={{height:"16rem",padding:"1rem",margin:"0.2rem",border:"1rem"}}>
                         <Form/>
                     </Card>    
-                </Grid> 
+                </Grid>  */}
                 <Grid item xs={12} sm={12} md={12} lg ={12} xl={12} >
                     <Card sx={{height:"100rem",padding:"1rem",margin:"0.2rem",border:"1rem"}}>
                         <MapBox position={position}/>
