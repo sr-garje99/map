@@ -28,13 +28,13 @@ const Body = () => {
   //console.log(position)
   return (
     <div ><PlaceContext.Provider value={[place,setPlace]}>
-        <Card sx={{height:"5rem",padding:"1px",margin:"1px",border:"1px"}}>
+        {/* <Card sx={{height:"5rem",padding:"1px",margin:"1px",border:"1px"}}>
         <Header/>
-        </Card>
+        </Card> */}
         <Box sx={{ flexGrow: 1 }}>
             
-            {/* <Grid container spacing={1}>
-                 <Grid item xs={12} sm={12} md={12} lg ={12} xl={12} >
+            <Grid container spacing={1}>
+                {/* <Grid item xs={12} sm={12} md={12} lg ={12} xl={12} >
                     <Card sx={{height:"16rem",padding:"1rem",margin:"0.2rem",border:"1rem"}}>
                         <Form/>
                     </Card>    
